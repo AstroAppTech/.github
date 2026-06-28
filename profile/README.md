@@ -38,7 +38,9 @@
   <a href="#-o-problema">Problema</a> •
   <a href="#-a-solução">Solução</a> •
   <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-arquitetura">Arquitetura</a> •
   <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-como-executar">Como Executar</a> •
   <a href="#-equipe">Equipe</a>
 </p>
 
@@ -78,15 +80,23 @@ A plataforma permite acompanhar treinamentos, certificados, pendências e atuali
 
 ## Funcionalidades
 
-| Funcionalidade | Status |
-|---|---|
+<table>
+  <thead>
+    <tr>
+      <th>Funcionalidade</th>
+      <th>Descrição</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
 
 ---
 
 ## Interface
 
 <p align="center">
-  <!-- Adicione capturas de tela das principais telas -->
   <img src="docs/images/screen-login.png" width="45%" alt="Login">
   <img src="docs/images/screen-dashboard.png" width="45%" alt="Dashboard">
 </p>
@@ -99,37 +109,101 @@ A plataforma permite acompanhar treinamentos, certificados, pendências e atuali
 
 ## Tecnologias
 
-| Categoria | Tecnologia |
-|---|---|
-| Front-end | HTML · CSS · JavaScript · TypeScript |
-| Back-end | FastAPI · Sprint Boot |
-| Banco de Dados | MongoDB · PostgreSQL · Redis · Neo4j |
-| Inteligência Artificial | Google Gemini · LangChain · LangSmith · LangGraph |
-| Versionamento | Git · GitHub |
+<table>
+  <thead>
+    <tr>
+      <th>Categoria</th>
+      <th>Tecnologia</th>
+      <th>Finalidade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Front-end</td>
+      <td>HTML · CSS · JavaScript · TypeScript · React</td>
+      <td>Interface web da plataforma</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+      <td>FastAPI · Spring Boot</td>
+      <td>APIs e regras de negócio</td>
+    </tr>
+    <tr>
+      <td>Banco de Dados</td>
+      <td>PostgreSQL · MongoDB · Redis · Neo4j</td>
+      <td>Persistência e cache de dados</td>
+    </tr>
+    <tr>
+      <td>Inteligência Artificial</td>
+      <td>Google Gemini · Groq · LangChain · LangSmith · LangGraph</td>
+      <td>Assistente inteligente e automações</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>Android</td>
+      <td>Aplicativo mobile</td>
+    </tr>
+    <tr>
+      <td>DevOps</td>
+      <td>Docker · Git · GitHub</td>
+      <td>Containerização e versionamento</td>
+    </tr>
+    <tr>
+      <td>Design & Gestão</td>
+      <td>Figma · Jira</td>
+      <td>Prototipação e gestão ágil</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## Equipe
 
-<!-- Adicione foto ou avatar dos integrantes -->
-
-| Nome | Função | GitHub |
-|---|---|---|
-| Felipe Battalhini Boregio | Back-end | [@Lipe-to](https://github.com/Lipe-to) |
-| Igor Quinto | Front-end | [@IgorQuinto5](https://github.com/IgorQuinto5) |
-| Lucas Lima De Oliveira | Dados | [@lucaslimaoliveira](https://github.com/lucaslimaoliveira) |
-| Luiza Cursino De Vicente | Dados | [@LuizaDeVicente](https://github.com/LuizaDeVicente) |
-| Maria Eduarda Araujo Golçalves Rosa | Back-end | [@rosamaduda](https://github.com/rosamaduda) |
-| Tainá Dias Martinelli | Front-end | [@Taina14m](https://github.com/Taina14m) |
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Função</th>
+      <th>GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Felipe Battalhini Boregio</td>
+      <td>Back-end</td>
+      <td><a href="https://github.com/Lipe-to">@Lipe-to</a></td>
+    </tr>
+    <tr>
+      <td>Igor Quinto</td>
+      <td>Front-end</td>
+      <td><a href="https://github.com/IgorQuinto5">@IgorQuinto5</a></td>
+    </tr>
+    <tr>
+      <td>Lucas Lima De Oliveira</td>
+      <td>Dados</td>
+      <td><a href="https://github.com/lucaslimaoliveira">@lucaslimaoliveira</a></td>
+    </tr>
+    <tr>
+      <td>Luiza Cursino De Vicente</td>
+      <td>Dados</td>
+      <td><a href="https://github.com/LuizaDeVicente">@LuizaDeVicente</a></td>
+    </tr>
+    <tr>
+      <td>Maria Eduarda Araujo Gonçalves Rosa</td>
+      <td>Back-end</td>
+      <td><a href="https://github.com/rosamaduda">@rosamaduda</a></td>
+    </tr>
+    <tr>
+      <td>Tainá Dias Martinelli</td>
+      <td>Front-end</td>
+      <td><a href="https://github.com/Taina14m">@Taina14m</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## Licença
 
 Este projeto encontra-se em desenvolvimento. A definição da licença será realizada nas versões futuras do sistema.
-
----
-
-<p align="center">
-  Desenvolvido com pela equipe <b>ASTRO</b>
-</p>
